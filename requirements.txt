@@ -1,0 +1,7 @@
+streamlit
+opencv-python-headless
+numpy
+pywavelets
+easyocr
+Pillow
+scikit-image
