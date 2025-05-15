@@ -50,7 +50,7 @@ A minimal, professional Streamlit web application to **embed and extract invisib
 ## 🛠️ Run Locally
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/harish043/watermarking-app.git
+cd watermarking-app
 pip install -r requirements.txt
 streamlit run app.py
