@@ -1,0 +1,68 @@
+🔐 SECURE KEYS FOR WATERMARK APP
+================================
+
+⚠️  IMPORTANT: Keep these keys secure and never commit them to version control!
+
+📋 GENERATED SECURITY KEYS:
+==========================
+
+SECRET_KEY=Kcq6u-ZWfH6VBkjEJduAKQ3cfLsheMwar2P3N3nCJjw
+JWT_SECRET=uMU2IVYPe4bFvj4y3_oY6YWhkrgZf2qZawWVBd8Eipc
+
+🔧 COMPLETE .ENV CONFIGURATION:
+==============================
+
+# 🔐 SECURITY KEYS (Generated securely)
+SECRET_KEY=Kcq6u-ZWfH6VBkjEJduAKQ3cfLsheMwar2P3N3nCJjw
+JWT_SECRET=uMU2IVYPe4bFvj4y3_oY6YWhkrgZf2qZawWVBd8Eipc
+JWT_ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+# 🗄️ DATABASE CONFIGURATION
+DATABASE_URL=sqlite:///./watermark_app.db
+# For PostgreSQL production: DATABASE_URL=postgresql://user:password@host:port/database
+
+# 🌐 CORS & NETWORK CONFIGURATION
+ALLOWED_ORIGINS=http://localhost:3000,http://localhost:80,http://localhost:8000
+REACT_APP_API_URL=http://localhost:8000
+
+# 📁 FILE UPLOAD CONFIGURATION
+UPLOAD_DIR=/app/uploads
+MAX_FILE_SIZE=10485760
+
+# 🔧 API CONFIGURATION
+API_V1_STR=/api/v1
+PROJECT_NAME=Watermark App
+
+🚀 PRODUCTION CONFIGURATION:
+===========================
+
+# For production, change these values:
+# ALLOWED_ORIGINS=https://yourdomain.com,https://www.yourdomain.com
+# REACT_APP_API_URL=https://api.yourdomain.com
+# DATABASE_URL=postgresql://user:password@host:port/database
+
+📝 SETUP INSTRUCTIONS:
+=====================
+
+1. Copy the .env configuration above
+2. Create a new file called ".env" in your project root
+3. Paste the configuration into the .env file
+4. For production, update the URLs and database connection
+5. Never commit the .env file to git
+
+🔒 SECURITY NOTES:
+=================
+
+- These keys are cryptographically secure and randomly generated
+- Keep them private and secure
+- Rotate keys regularly in production
+- Use different keys for different environments
+- Never share these keys publicly
+
+✅ READY FOR DEPLOYMENT:
+=======================
+
+Your app is now ready to deploy with secure keys!
+Use: .\deploy.bat deploy dev    # For development
+Use: .\deploy.bat deploy prod   # For production 
